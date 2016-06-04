@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- every platform has its name in sdk @string,for example sina=umeng_socialize_text_sina_key -->
+
+    <com.bupt.ktc.CircleImageView
+        android:id="@+id/app_auth_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/umeng_socialize_wechat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/app_auth_sina"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_sina_key" />
+
+            <Button
+                android:id="@+id/app_auth_renren"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_renren_key"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_auth_douban"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_douban_key"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_auth_weixin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_weixin_key" />
+
+            <Button
+                android:id="@+id/app_auth_qq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_qq_key" />
+
+            <Button
+                android:id="@+id/app_auth_facebook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_facebook_key"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_auth_twitter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_twitter_key"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_auth_tencent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="@string/umeng_socialize_text_tencent_key" />
+
+            <Button
+                android:id="@+id/app_auth_linkedin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAuth"
+                android:text="LinkedIn"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/app_del_auth_renren"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_del_auth_sina"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth" />
+
+            <Button
+                android:id="@+id/app_del_auth_douban"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_del_auth_weixin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth" />
+
+            <Button
+                android:id="@+id/app_del_auth_qq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth" />
+
+            <Button
+                android:id="@+id/app_del_auth_facebook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_del_auth_twitter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/app_del_auth_tencent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth" />
+
+            <Button
+                android:id="@+id/app_auth_linkedin_del"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDeletAuth"
+                android:text="@string/umeng_deleauth"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- every platform`s name has already written in sdk(@string) ,easy to use -->
+
+</LinearLayout>

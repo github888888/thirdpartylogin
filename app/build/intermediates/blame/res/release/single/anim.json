@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_out.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in2.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\push_bottom_in2.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\umeng_socialize_fade_out.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\umeng_socialize_fade_in.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\build\\intermediates\\res\\merged\\release\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "F:\\Workspaces\\androidStudio\\MainActivity\\app\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    }
+]
